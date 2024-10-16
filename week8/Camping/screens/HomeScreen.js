@@ -69,7 +69,7 @@ function HomeScreen(){
     }
     
     // LIST OF GUEST COUNT FOR PICKER (IN THE MODAL)
-    const  guestCounts = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+    const  guestCounts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
     const [numGuests, setNumGuests] = useState(0);
     const [showNumGuests, setShowNumGuests] = useState(false);
 
@@ -85,7 +85,7 @@ function HomeScreen(){
     }
 
     // LIST OF GUEST COUNT FOR CAMPSITES (IN THE MODAL) 
-    const  bedCounts = [0, 1, 2, 3, 4];
+    const  bedCounts = [1, 2, 3, 4, 5];
     const [numBeds, setNumBeds] = useState(0);
     const [showNumBeds, setShowNumBeds] = useState(false);
 
