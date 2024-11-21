@@ -1,0 +1,38 @@
+{
+  "name": "dressupdiva",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.0.3",
+    "@react-navigation/native-stack": "^7.1.0",
+    "@react-navigation/stack": "^7.0.5",
+    "@reduxjs/toolkit": "^2.3.0",
+    "@tanstack/react-query": "^5.61.0",
+    "expo": "~52.0.9",
+    "expo-font": "^13.0.1",
+    "expo-splash-screen": "^0.29.12",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.2",
+    "react-native-draggable": "^3.3.0",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.1.0",
+    "react-native-svg": "^15.9.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
